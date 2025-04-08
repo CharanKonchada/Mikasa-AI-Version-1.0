@@ -2,14 +2,14 @@
 
 ##  Meet Mikasa - Your Personalized AI Assistant
 
-Hey there! I'm **Charan Konchada**, an AI enthusiast on a mission to build an AI model that works like **ChatGPT**, but with a twist—**Mikasa** remembers your preferences and can be fully personalized based on how *you* want to interact. 💡🤖
+Hey there! I'm **Charan Konchada**, an AI enthusiast on a mission to build an AI model that works like **ChatGPT**, but with a twist—**Mikasa** remembers your preferences and can be fully personalized based on how *you* want to interact. 
 
 ###  What is Mikasa?
 
 Mikasa is an AI assistant powered by a local LLM (Large Language Model), designed to:
 - Remember your preferences
 - Adapt its personality
-- Be more than just a chatbot—it can be your **best friend**, **brother**, **sister**, or anything you imagine 💬❤️
+- Be more than just a chatbot—it can be your **best friend**, **brother**, **sister**, or anything you imagine 
 
 ---
 
