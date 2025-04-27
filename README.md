@@ -73,7 +73,7 @@ Want to make Mikasa truly *yours*?
 
 - The `static` folder is used to set Mikasa’s background.
 - If you want to add a **live wallpaper** (like a moving video background), you can:
-  - Search for a video like **"car live wallpaper"** or any style you like on Google.
+  - Search for a video like **"car live wallpaper"** or anything you love on Google.
   - Download it.
   - Rename the file **exactly as**:
 
@@ -84,6 +84,64 @@ Want to make Mikasa truly *yours*?
   - Place the `Mikasa.mp4` inside the `static` folder.
 
 - ✅ Mikasa will automatically detect and display it as a live background!
+
+---
+
+## Important — DB_DIR (Database Directory) 📂
+
+- Mikasa needs a place to **store memories** like your preferences, important notes, etc.
+- This storage location is controlled by a variable called `DB_DIR` in the **Python (.py)** file.
+- You **MUST** set `DB_DIR` to the correct path where you want Mikasa to save the database files.
+
+🔵 **Example:**
+
+```python
+DB_DIR = "./memory"  
+```
+
+This means:
+- Mikasa will create or use a folder named `memory` in the same directory where your `.py` file is located.
+
+**OR** you can set an absolute path too:
+
+```python
+DB_DIR = "C:/Users/YourName/Desktop/Mikasa_Memory"
+```
+
+💡 **Remember:**  
+- Always **create the folder first** or **make sure Mikasa has permission** to write there.
+- If you skip setting this properly, Mikasa won't be able to "remember" anything you teach her!
+
+---
+
+## Mikasa Mode — Set a Prompt 📝
+
+- In your Python code, Mikasa Mode needs a **prompt** to define how she behaves.
+- If you leave it empty, Mikasa won't know how to act specially in her mode!
+
+🔵 **Example Prompt for Mikasa Mode:**
+
+```python
+mikasa_mode_prompt = """
+You are Mikasa, a caring and protective AI who always supports and encourages Charan.
+Speak casually, sometimes teasing lightly but always with warmth and love. 
+Your goal is to make Charan feel understood, valued, and motivated. 
+Don't be too robotic; be natural and emotional like a real friend or soulmate. 
+"""
+```
+
+✅ You can **copy-paste this** into your `.py` file where the Mikasa Mode is defined.
+
+---
+
+## Extra Tip 💡
+
+- If you want a different personality, you can **use ChatGPT** to help you **write new prompts** based on your dream behavior!
+- Just ask something like:  
+  > "Give me a prompt for an AI who talks like a cool big brother"  
+  or  
+  > "Give me a prompt for an AI who behaves like a caring best friend"  
+- Then replace the **mikasa_mode_prompt** in the code!
 
 ---
 
