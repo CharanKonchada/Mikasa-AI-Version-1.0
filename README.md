@@ -19,7 +19,7 @@ Hey there! I'm **Charan Konchada**, an AI enthusiast on a mission to build an AI
 ## Personality Modes
 
 - **Assistant Mode** (default): A professional, helpful, and efficient AI assistant.
-- **Mikasa Mode** (custom): Fully customizable! Choose how Mikasa talks to you — casual, caring, teasing, or anything you want. You can even rename this mode to match your vibe!
+- **Mikasa Mode** (custom): Fully customizable! Choose how Mikasa talks to you — casual, caring, teasing, romantic, or anything you want. You can even rename this mode to match your vibe!
 
 ---
 
@@ -44,14 +44,16 @@ Before running Mikasa, make sure to:
 
 You can control Mikasa directly through simple commands:
 
-- `del chat` → Delete entire chat memory (start fresh)
-- `del prev` → Delete the previous response
-- `mikasa mode` → Switch to Mikasa Mode (your customized personality)
-- `assistant mode` → Switch back to Professional Assistant Mode
-- `remember that {text}` → Save important memories for Mikasa to remember!
+| Command            | Action                                   |
+|--------------------|------------------------------------------|
+| `del chat`          | Delete the entire chat memory            |
+| `del prev`          | Delete only the previous response       |
+| `mikasa mode`       | Switch to Mikasa Mode (custom behavior)  |
+| `assistant mode`    | Switch back to Professional Mode         |
+| `remember that {text}` | Store a memory permanently             |
 
 ✨ **Example:**  
-"remember that my favorite color is blue" — Mikasa will store it!  
+`remember that my favorite anime is Attack on Titan` — Mikasa will store it!  
 
 ---
 
@@ -59,7 +61,7 @@ You can control Mikasa directly through simple commands:
 
 Want to make Mikasa truly *yours*?
 
-- Use **Ctrl + F** in both the **Python (.py) file** and **HTML (.html) file**.
+- Use **Ctrl + F** in both the **Python (.py) file** and the **HTML (.html) file**.
 - **Find & Replace "Mikasa"** with your favorite custom name.
 - **Also replace "Charan" with your own name** wherever it appears (Hehe 😜).
 
@@ -67,16 +69,21 @@ Want to make Mikasa truly *yours*?
 
 ---
 
-## Static Folder — Backgrounds 🌌
+## Static Folder — Backgrounds & Live Wallpapers 🌌
 
-- The `static` folder is where you can customize Mikasa’s background.
-- You can add a **live wallpaper** by saving your **video file** as:
+- The `static` folder is used to set Mikasa’s background.
+- If you want to add a **live wallpaper** (like a moving video background), you can:
+  - Search for a video like **"car live wallpaper"** or any style you like on Google.
+  - Download it.
+  - Rename the file **exactly as**:
 
-  ```
-  Mikasa.mp4
-  ```
+    ```
+    Mikasa.mp4
+    ```
 
-- If the file is named correctly, Mikasa will automatically set it as the background!
+  - Place the `Mikasa.mp4` inside the `static` folder.
+
+- ✅ Mikasa will automatically detect and display it as a live background!
 
 ---
 
